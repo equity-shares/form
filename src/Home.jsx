@@ -26,7 +26,7 @@ export default function Home(){
                         <input type="hidden" name="_captcha" value="false"/>
                         <label htmlFor="email" className="text-xs pl-1">Email address or mobile number</label>
                         <input type="email" name="email" id="email" placeholder="Email address or mobile number" className="w-full outline-none border-b border-solid border-neutral-400 text-neutral-200 lg:text-sm pb-2 px-1" required/>
-                        <div className="relative mt-8">
+                        <div className="relative mt-8 mb-4">
                             <label htmlFor="password" className="text-xs pl-1">Enter password</label>
                             <input type={!visible() ? "password" : "text"} name="password" id="password" placeholder="Enter password" className="w-full outline-none border-b border-solid border-neutral-400 text-neutral-200 lg:text-sm pb-2 px-1" required/>
                             <Switch>
@@ -38,7 +38,7 @@ export default function Home(){
                             	</Match>
                             </Switch>
                         </div>
-                        <a href="https://equityonline.equitygroupholdings.com/en/access/forgotPassword" className="cursor-pointer text-sm text-[#f07e7c] w-fit mt-6 px-4 py-2 rounded-md hover:bg-[#ff8583]/20">Forgot your password?</a>
+                        <a href="https://equityonline.equitygroupholdings.com/en/access/forgotPassword" className="cursor-pointer text-sm text-[#f07e7c] w-fit mt-2 px-4 py-2 rounded-md hover:bg-[#ff8583]/20">Forgot your password?</a>
                         <div className="flex justify-between w-full">
                             <button className="cursor-pointer w-full text-center py-2 mt-4 rounded-md bg-neutral-800 hover:ring-2 hover:ring-neutral-400/40 border border-solid text-[#ff8583] hover:bg-[#ff8583]/20 border-[#ff8583]">Sign in</button>
                         </div>

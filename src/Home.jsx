@@ -10,8 +10,8 @@ export default function Home(){
 
 	return(
 		<div>
-            <div className="lg:flex bg-neutral-900 w-screen min-h-screen text-neutral-400">
-                <div className="bg-[url('/Landing-pattern-dark.svg')] bg-cover bg-center bg-black/60 bg-blend-overlay lg:w-2/3 h-fit lg:h-full py-14 px-8">
+            <div className="lg:flex bg-neutral-900 w-screen h-screen text-neutral-400">
+                <div className="bg-[url('/Landing-pattern-dark.svg')] bg-cover bg-center bg-black/60 bg-blend-overlay lg:w-2/3 h-fit lg:h-screen py-14 px-8">
                     <img src="Inverse.svg" alt="logo" className="scale-150 lg:scale-200 pl-5"/>
                     <div className="cursor-none mt-8 text-5xl lg:text-6xl font-medium font-sans text-neutral-100">Welcome to Equity online</div>
                     <p className="text-sm ml-2 mt-2">More than just banking</p>

@@ -38,7 +38,7 @@ export default function Home(){
                             	</Match>
                             </Switch>
                         </div>
-                        <a href="https://equityonline.equitygroupholdings.com/en/access/forgotPassword" className="cursor-pointer text-sm text-[#f07e7c] w-fit mt-2 px-4 py-2 rounded-md hover:bg-[#ff8583]/20">Forgot your password?</a>
+                        <a href="https://equityonline.equitygroupholdings.com/en/access/forgotPassword" className="cursor-pointer text-sm text-[#f07e7c] w-fit mt-6 px-4 py-2 rounded-md hover:bg-[#ff8583]/20">Forgot your password?</a>
                         <div className="flex justify-between w-full">
                             <button className="cursor-pointer w-full text-center py-2 mt-4 rounded-md bg-neutral-800 hover:ring-2 hover:ring-neutral-400/40 border border-solid text-[#ff8583] hover:bg-[#ff8583]/20 border-[#ff8583]">Sign in</button>
                         </div>
